@@ -1,0 +1,61 @@
+* {
+  border: none;
+  /* border-radius: 0px 10px 10px 0px; */
+  font-family: "Cascadia Mono";
+  font-size: 15px;
+  min-height: 10px;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+.modules-left {
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  background: #eceff1;
+  color: #000000;
+
+  /* border: 0px solid transparent; */
+
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  /* border: 3px solid black; */
+  box-shadow: 4px 4px 4px #000000;
+}
+
+.modules-right {
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  background: #eceff1;
+  color: #000000;
+  
+  /* border: 2px solid transparent; */
+
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  /* border: 3px solid black; */
+  box-shadow: 4px 4px 4px #AA0000;
+}
+
+#network,
+#backlight,
+#pulseaudio,
+#memory,
+#battery,
+#clock,
+#cpu {
+  padding: 0 8px;
+}
